@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+    UCLS Green Team
+    </title>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+   
+        
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
+</head>
+<body>
+    <header class="Content1">
+        Green Team <br><sub> PHOTO GALLERY</sub>
+        <h1> MONDAYS AT LUNCH, C212</h1>
+        <div id="leaves">
+        <img src="assets/images/leaves.png" style="height: 130px" >
+        </div>
+        <div id="recycle">
+        <img src="assets/images/recycle.png" style="height: 105px" >
+        </div>
+    </header>  
+
+    <div class="Menu">
+       
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="service.html">Service Trips</a></li>
+        <li><a href="compost.html">Compost Schedule</a></li>
+        <li><a href="contact.html">Contact</a>
+        <li><a href="#">Photo Gallery</a></li>
+       
+        <br>
+        <br>
+        <div class="contact">
+            <span><a href="contact.html">Victoria Gin</a></span><br>PRESIDENT<br>
+        <br><span><a href="contact.html">Chantalle Dupont</a></span> <br>VICE PRESIDENT 
+         </div>
+       
+    
+    </div>
+   
+    <style>
+        .vl {
+/*
+            border-left: 6px solid green;
+            height: 500px;
+*/
+        }
+    </style>
+
+    <div class="vl"></div>
+ 
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+        <img src="assets/images/riverClean.JPG" style="width: 1000px" >
+        </div>
+       
+      <div class="mySlides fade">
+        <img src="assets/images/riverClean2.jpg" style="width:1000px">
+        </div>
+
+      <div class="mySlides fade">
+        <img src="assets/images/trashBag.JPG" style="width:1000px">
+
+    </div>
+    </div>
+    
+   <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        var i;
+        var slides =        document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length)     {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+        
+    </script>
+     
+    
+
+   
+
+
+    
+        
+ 
+ 
+
+        
+</body>
+    
+    
+</html>
+  
